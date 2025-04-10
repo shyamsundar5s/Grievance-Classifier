@@ -1,0 +1,12 @@
+grievance_classifier/
+│
+├── app.py
+├── grievance_classifier.py
+├── templates/
+│   ├── login.html
+│   ├── dashboard.html
+│   └── submit.html
+├── static/
+│   └── styles.css
+├── requirements.txt
+└── firebase_config.json
