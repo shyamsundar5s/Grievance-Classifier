@@ -1,0 +1,8 @@
+<h2>Grievance Dashboard</h2>
+<ul>
+  {% for g in grievances %}
+    <li><strong>{{ g['category'] }}</strong>: {{ g['text'] }}</li>
+  {% endfor %}
+</ul>
+<a href="/submit">Submit another</a>
+<a href="/logout">Logout</a>
